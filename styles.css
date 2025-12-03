@@ -1,0 +1,26 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background-color: hsl(62, 53%, 79%);
+}
+
+.moved-pic {
+  /* This moves the picture horizontally ( X-axis ) and vertically ( Y-axis ) */
+  /* Syntax: translate(right/left, down/up) */
+  transform: translate(597px, -535px);
+}
+
+.my-image {
+  /* Set the desired width (e.g., 200 pixels) */
+  width: 800px; 
+  /* Let the height adjust automatically to prevent stretching */
+  height: auto; 
+}
+
+img {
+  border-radius: 15px;
+}
